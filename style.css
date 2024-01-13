@@ -1,0 +1,90 @@
+
+.section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+    
+
+.bgimage {
+    height:100vh;
+    background: url('images/main.jpeg');
+    background-size:cover;
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+
+.hero_title {
+    padding-top: 10rem;
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.image_about{
+    height: 100%;
+    width: 100%;
+}
+
+.navbarDark {
+    background: #000;
+}
+
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-github:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover, 
+{
+    color: #fff;
+}
+.fab {
+    color: #000000;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.footer{
+
+    background-color: #808080;
+    text-align: center;
+    justify-content: space-evenly
+
+}
+
+.col-lg-6{
+    text-align: justify;
+}
